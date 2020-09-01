@@ -29,7 +29,8 @@ MEDIA_ROOT=os.path.join(BASE_DIR,'media')
 STATIC_URL = '/static/'
 STATIC_ROOT=os.path.join(BASE_DIR,'static')
 
-ALLOWED_HOSTS = ["studentmanagementsystem22.herokuapp.com"]
+ALLOWED_HOSTS = ['studentmanagementsystem98.herokuapp.com']
+
 
 
 # Application definition
