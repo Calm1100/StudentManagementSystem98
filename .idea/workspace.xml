@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc32fdfa-ac9c-400f-94c9-920046f9d41b" name="Default Changelist" comment="" />
+    <list default="true" id="bc32fdfa-ac9c-400f-94c9-920046f9d41b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_management_app/HodViews.py" beforeDir="false" afterPath="$PROJECT_DIR$/student_management_app/HodViews.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +113,7 @@
       <workItem from="1598976121842" duration="556000" />
       <workItem from="1598976741416" duration="873000" />
       <workItem from="1598977618785" duration="1973000" />
-      <workItem from="1599011409747" duration="9830000" />
+      <workItem from="1599011409747" duration="10552000" />
     </task>
     <servers />
   </component>
