@@ -20,9 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc32fdfa-ac9c-400f-94c9-920046f9d41b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student_management_app/templates/hod_template/staff_notification.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student_management_app/templates/hod_template/student_notification.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student_management_app/templates/staff_template/all_notification.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student_management_app/templates/student_template/all_notification.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_management_app/HodViews.py" beforeDir="false" afterPath="$PROJECT_DIR$/student_management_app/HodViews.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_management_app/StaffViews.py" beforeDir="false" afterPath="$PROJECT_DIR$/student_management_app/StaffViews.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_management_app/StudentViews.py" beforeDir="false" afterPath="$PROJECT_DIR$/student_management_app/StudentViews.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_management_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/student_management_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_management_app/templates/hod_template/sidebar_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/student_management_app/templates/hod_template/sidebar_template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_management_app/templates/student_template/sidebar_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/student_management_app/templates/student_template/sidebar_template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_management_app/templates/student_template/student_home_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/student_management_app/templates/student_template/student_home_template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_management_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/student_management_app/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/student_management_system/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/student_management_system/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_management_system/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/student_management_system/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_management_system/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/student_management_system/wsgi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +128,8 @@
       <workItem from="1598975772784" duration="345000" />
       <workItem from="1598976121842" duration="556000" />
       <workItem from="1598976741416" duration="873000" />
-      <workItem from="1598977618785" duration="1370000" />
+      <workItem from="1598977618785" duration="1973000" />
+      <workItem from="1599011409747" duration="8089000" />
     </task>
     <servers />
   </component>
@@ -130,8 +146,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="309" y="42" key="#Inspections" timestamp="1599011526033">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1599011526033" />
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598370745015">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -144,9 +165,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598528510429" />
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1598935062318">
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1599057082059">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1598935062318" />
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1599057082059" />
   </component>
 </project>
