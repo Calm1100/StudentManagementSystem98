@@ -207,19 +207,29 @@ Home
             })
     })
 </script>
-<script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-messaging.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-analytics.js"></script>
+
 <script>
-    var firebaseConfig = {
-        apiKey: "YOUR_API_KEY",
-        authDomain: "FIREBASE_AUTH_URL",
-        databaseURL: "FIREBASE_DATABASE_URL",
-        projectId: "FIREBASE_PROJECT_ID",
-        storageBucket: "FIREBASE_STORAGE_BUCKET_URL",
-        messagingSenderId: "FIREBASE_SENDER_ID",
-        appId: "FIREBASE_APP_ID",
-        measurementId: "FIREBASE_MEASUREMENT_ID"
-    };
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAKYd6sePJat94bQVL7xQxGA_houbtLmQY",
+    authDomain: "studentmanagementsystem98.firebaseapp.com",
+    databaseURL: "https://studentmanagementsystem98.firebaseio.com",
+    projectId: "studentmanagementsystem98",
+    storageBucket: "studentmanagementsystem98.appspot.com",
+    messagingSenderId: "397921856598",
+    appId: "1:397921856598:web:c7908956a84e75c3389ff7",
+    measurementId: "G-7X79MZ0ZXF"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
     firebase.initializeApp(firebaseConfig);
     const messaging=firebase.messaging();
 
