@@ -20,8 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc32fdfa-ac9c-400f-94c9-920046f9d41b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/student_management_app/EditResultVIewClass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student_management_app/templates/staff_template/edit_student_result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student_management_app/templates/staff_template/staff_add_result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student_management_app/templates/student_template/student_result.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_management_app/HodViews.py" beforeDir="false" afterPath="$PROJECT_DIR$/student_management_app/HodViews.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_management_app/LoginCheckMiddleWare.py" beforeDir="false" afterPath="$PROJECT_DIR$/student_management_app/LoginCheckMiddleWare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_management_app/StaffViews.py" beforeDir="false" afterPath="$PROJECT_DIR$/student_management_app/StaffViews.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_management_app/StudentViews.py" beforeDir="false" afterPath="$PROJECT_DIR$/student_management_app/StudentViews.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_management_app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/student_management_app/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_management_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/student_management_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_management_app/templates/staff_template/sidebar_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/student_management_app/templates/staff_template/sidebar_template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_management_app/templates/student_template/sidebar_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/student_management_app/templates/student_template/sidebar_template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_management_system/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/student_management_system/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +125,8 @@
       <workItem from="1598976121842" duration="556000" />
       <workItem from="1598976741416" duration="873000" />
       <workItem from="1598977618785" duration="1973000" />
-      <workItem from="1599011409747" duration="10552000" />
+      <workItem from="1599011409747" duration="11275000" />
+      <workItem from="1599098891893" duration="11710000" />
     </task>
     <servers />
   </component>

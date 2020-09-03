@@ -3,6 +3,7 @@ from django.contrib import admin
 from django.urls import path, include
 
 from student_management_app import views, HodViews, StaffViews, StudentViews
+from student_management_app.EditResultVIewClass import EditResultViewClass
 from student_management_system import settings
 
 urlpatterns = [
@@ -58,7 +59,7 @@ urlpatterns = [
     path('send_student_notification', HodViews.send_student_notification,name="send_student_notification"),
     path('send_staff_notification', HodViews.send_staff_notification, name="send_staff_notification"),
 
-    #     Staff URL Path
+    #  Staff URL Path
     path('staff_home', StaffViews.staff_home, name="staff_home"),
     path('staff_take_attendance', StaffViews.staff_take_attendance, name='staff_take_attendance'),
     path('staff_update_attendance', StaffViews.staff_update_attendance, name='staff_update_attendance'),
@@ -75,8 +76,12 @@ urlpatterns = [
     path('staff_profile_save', StaffViews.staff_profile_save, name="staff_profile_save"),
     path('staff_fcmtoken_save', StaffViews.staff_fcmtoken_save, name="staff_fcmtoken_save"),
     path('staff_all_notification', StaffViews.staff_all_notification, name="staff_all_notification"),
+    path('staff_add_result', StaffViews.staff_add_result, name="staff_add_result"),
+    path('save_student_result', StaffViews.save_student_result, name="save_student_result"),
+    path('edit_student_result', EditResultViewClass.as_view(), name="edit_student_result"),
+    path('fetch_result_student', StaffViews.fetch_result_student, name="fetch_result_student"),
 
-                  # Student URL Path
+     # Student URL Path
     path('student_home', StudentViews.student_home, name="student_home"),
     path('student_view_attendance', StudentViews.student_view_attendance, name='student_view_attendance'),
     path('student_view_attendance_post', StudentViews.student_view_attendance_post, name="student_view_attendance_post"),
@@ -89,5 +94,6 @@ urlpatterns = [
     path('student_fcmtoken_save', StudentViews.student_fcmtoken_save, name="student_fcmtoken_save"),
     path('firebase-messaging-sw.js', views.showFirebaseJS, name="show_firebase_js"),
     path('student_all_notification', StudentViews.student_all_notification, name="student_all_notification"),
+    path('student_view_result', StudentViews.student_view_result, name="student_view_result")
 
-              ]+static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)+static(settings.STATIC_URL,document_root=settings.STATIC_ROOT)
+]+static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)+static(settings.STATIC_URL,document_root=settings.STATIC_ROOT)
